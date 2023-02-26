@@ -1,4 +1,3 @@
-```jsx
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 import { Command, useCommandState } from 'cmdk'
@@ -188,4 +187,3 @@ export const QuickLinksItemPreview = React.forwardRef<
     : null
 })
 QuickLinksItemPreview.displayName = ITEM_PREVIEW_NAME
-```
