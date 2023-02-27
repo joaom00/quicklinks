@@ -2,6 +2,23 @@
 
 - [uiwtf](https://uiw.tf/quick-links)
 
+## Use
+
+```jsx
+<QuickLinks>
+  <QuickLinksContent>
+    <QuickLinksInput />
+    <QuickLinksList>
+      <QuickLinksItem>
+        <QuickLinksItemContent />
+        <QuickLinksItemPreview />
+      </QuickLinksItem>
+    </QuickLinksList>
+  </QuickLinksContent>
+  <QuickLinksViewport />
+</QuickLinks>
+```
+
 ## Component
 
 ```jsx
