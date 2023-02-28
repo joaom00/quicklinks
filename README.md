@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./website/public/og.png" />
+  <img src="./public/og.png" />
 </p>
 
 ## Acknowledgements
