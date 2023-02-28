@@ -1,25 +1,20 @@
+<p align="center">
+  <img src="./website/public/og.png" />
+</p>
+
 ## Acknowledgements
 
 - [uiwtf](https://uiw.tf/quick-links)
 
-## Use
+## How to use
 
-```jsx
-<QuickLinks>
-  <QuickLinksContent>
-    <QuickLinksInput />
-    <QuickLinksList>
-      <QuickLinksItem>
-        <QuickLinksItemContent />
-        <QuickLinksItemPreview />
-      </QuickLinksItem>
-    </QuickLinksList>
-  </QuickLinksContent>
-  <QuickLinksViewport />
-</QuickLinks>
+### Install required packages
+
+```bash
+npm install @radix-ui/popover cmdk
 ```
 
-## Component
+<details><summary><h3>Component</h3></summary>
 
 ```jsx
 import * as React from 'react'
@@ -212,3 +207,23 @@ export const QuickLinksItemPreview = React.forwardRef<
 })
 QuickLinksItemPreview.displayName = ITEM_PREVIEW_NAME
 ```
+
+</details>
+
+## Usage
+
+```jsx
+<QuickLinks>
+  <QuickLinksContent>
+    <QuickLinksInput />
+    <QuickLinksList>
+      <QuickLinksItem>
+        <QuickLinksItemContent />
+        <QuickLinksItemPreview />
+      </QuickLinksItem>
+    </QuickLinksList>
+  </QuickLinksContent>
+  <QuickLinksViewport />
+</QuickLinks>
+```
+
